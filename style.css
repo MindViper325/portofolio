@@ -99,12 +99,32 @@ h1 {
     border-bottom: 1px solid #ccc;
 }
 
-.projet-image img {
+/* CADRE DES IMAGES */
+
+.projet-image {
     width: 100%;
     aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+/* IMAGES */
+
+.projet-image img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     display: block;
 }
+
+/* LECTEUR AUDIO */
+
+.projet-image audio {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* INFORMATIONS DU PROJET */
 
 .projet-infos {
     display: flex;
