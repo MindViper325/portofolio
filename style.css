@@ -99,16 +99,12 @@ h1 {
     border-bottom: 1px solid #ccc;
 }
 
-/* IMAGE DU PROJET */
-
 .projet-image img {
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
     display: block;
 }
-
-/* INFORMATIONS */
 
 .projet-infos {
     display: flex;
@@ -127,10 +123,8 @@ h1 {
     font-size: 25px;
     font-weight: 400;
     margin-bottom: 15px;
-}
-
-/* TITRES CLIQUABLES */
-
+    pointer-events: none;
+    cursor: default;
 }
 
 .projet-infos p {
@@ -138,21 +132,6 @@ h1 {
     font-size: 14px;
     line-height: 1.7;
     margin-bottom: 25px;
-}
-
-/* LIEN DU PROJET */
-
-.lien-projet {
-    color: #171717;
-    font-size: 13px;
-    text-decoration: none;
-    border-bottom: 1px solid #171717;
-    padding-bottom: 4px;
-    transition: opacity 0.2s;
-}
-
-.lien-projet:hover {
-    opacity: 0.5;
 }
 
 /* =========================
